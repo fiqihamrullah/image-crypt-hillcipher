@@ -59,7 +59,7 @@ public class FormDecrypt extends javax.swing.JFrame {
         jLabel2.setText("jLabel2");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Form Dekripsi:: Pengamanan Citra Digital Dengan Hill Cipher dan Transformasi Matriks");
+        setTitle("Decryption Form :: Secure Image with Hill Cipher dan Matrix Transformation");
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

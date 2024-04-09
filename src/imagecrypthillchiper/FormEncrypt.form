@@ -10,7 +10,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="2"/>
-    <Property name="title" type="java.lang.String" value="Form Enkripsi :: Pengamanan Citra Digital Dengan Hill Cipher dan Transformasi Matriks"/>
+    <Property name="title" type="java.lang.String" value="Encryption Form :: Secure Image with Hill Cipher dan Matrix Transformation"/>
     <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>

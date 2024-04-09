@@ -59,7 +59,7 @@ public class FormEncrypt extends javax.swing.JFrame {
         jLabel2.setText("jLabel2");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Form Enkripsi :: Pengamanan Citra Digital Dengan Hill Cipher dan Transformasi Matriks");
+        setTitle("Encryption Form :: Secure Image with Hill Cipher dan Matrix Transformation");
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
