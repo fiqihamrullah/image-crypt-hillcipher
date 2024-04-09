@@ -5,11 +5,7 @@
 
 package imagecrypthillchiper;
 
-/**
- *
- * @author TOSHIBA
- */
-
+ 
 import java.io.File;
 
 import javax.swing.JFileChooser;

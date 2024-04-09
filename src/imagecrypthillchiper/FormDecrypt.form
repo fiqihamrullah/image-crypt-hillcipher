@@ -72,7 +72,7 @@
         <Component class="javax.swing.JLabel" name="jlblGambar">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Klik Untuk Pilih Gambar"/>
+            <Property name="text" type="java.lang.String" value="Click to Browse Image"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jlblGambarMouseClicked"/>
@@ -84,7 +84,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="Kunci"/>
+            <TitledBorder title="Key Parameters"/>
           </Border>
         </Property>
       </Properties>
@@ -216,14 +216,14 @@
         <Component class="javax.swing.JLabel" name="jlblGambarHasil">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="| Hasil Dekripsi |"/>
+            <Property name="text" type="java.lang.String" value="| Decryption Result |"/>
           </Properties>
         </Component>
       </SubComponents>
     </Container>
     <Component class="javax.swing.JButton" name="jBtnDekripsi">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Dekripsi Gambar"/>
+        <Property name="text" type="java.lang.String" value="Decrypt"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnDekripsiActionPerformed"/>

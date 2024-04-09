@@ -37,29 +37,30 @@ public class FormMain extends javax.swing.JFrame {
         jbtnKeluar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Secure Your Image");
         setResizable(false);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Aplikasi ...");
+        jLabel1.setText("Image Security - Hill Cipher Algorithm");
 
-        jbtnEnkripsiGambar.setText("Enkripsi Gambar");
+        jbtnEnkripsiGambar.setText("Encrypt Image");
         jbtnEnkripsiGambar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnEnkripsiGambarActionPerformed(evt);
             }
         });
 
-        jbtnDekripsiGambar.setText("Dekripsi Gambar");
+        jbtnDekripsiGambar.setText("Decrypt Image");
         jbtnDekripsiGambar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnDekripsiGambarActionPerformed(evt);
             }
         });
 
-        jbtnKeluar.setText("Keluar");
+        jbtnKeluar.setText("Exit");
         jbtnKeluar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnKeluarActionPerformed(evt);

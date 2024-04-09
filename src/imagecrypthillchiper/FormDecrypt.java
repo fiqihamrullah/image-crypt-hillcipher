@@ -66,7 +66,7 @@ public class FormDecrypt extends javax.swing.JFrame {
         jPanel2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         jlblGambar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jlblGambar.setText("Klik Untuk Pilih Gambar");
+        jlblGambar.setText("Click to Browse Image");
         jlblGambar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jlblGambarMouseClicked(evt);
@@ -92,7 +92,7 @@ public class FormDecrypt extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(121, 11, -1, -1));
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Kunci"));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Key Parameters"));
 
         jTxtSeed.setText("5");
 
@@ -151,7 +151,7 @@ public class FormDecrypt extends javax.swing.JFrame {
         jPanel4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
         jlblGambarHasil.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jlblGambarHasil.setText("| Hasil Dekripsi |");
+        jlblGambarHasil.setText("| Decryption Result |");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -172,7 +172,7 @@ public class FormDecrypt extends javax.swing.JFrame {
 
         getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 11, -1, -1));
 
-        jBtnDekripsi.setText("Dekripsi Gambar");
+        jBtnDekripsi.setText("Decrypt");
         jBtnDekripsi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jBtnDekripsiActionPerformed(evt);
